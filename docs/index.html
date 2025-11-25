@@ -1,1 +1,114 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>NSE Option Signals — Advanced Dashboard</title>
+
+<style>
+    body{font-family:Arial;background:#f4f6f9;margin:0;padding:18px;}
+    .container{max-width:1200px;margin:auto;}
+    h1{margin:4px 0;}
+    .updated{color:#666;margin-bottom:12px;}
+    .card{background:white;padding:16px;border-radius:10px;margin-top:14px;
+          box-shadow:0 4px 14px rgba(0,0,0,0.08);}
+    table{width:100%;border-collapse:collapse;margin-top:10px;}
+    th,td{padding:8px;border-bottom:1px solid #eee;font-size:14px;}
+    th{background:#fafafa;}
+    .pill-buy{background:#e8fff0;color:#0b7d28;padding:4px 8px;border-radius:6px;font-size:13px;}
+    .pill-sell{background:#ffecec;color:#b00020;padding:4px 8px;border-radius:6px;font-size:13px;}
+    .metric{color:#444;font-size:13px;}
+</style>
+</head>
+
+<body>
+<div class="container">
+
+<h1>📊 NSE Option Signals — Advanced Dashboard</h1>
+<div class="updated" id="updated">Last Updated: —</div>
+
+<div id="topSection" class="card">
+    <h2>Top Opportunities</h2>
+    <div id="topArea"></div>
+</div>
+
+<div class="card">
+    <h2>Signals Table</h2>
+
+    <table id="signalsTable">
+        <thead>
+            <tr>
+                <th>Symbol</th>
+                <th>Signal</th>
+                <th>Type</th>
+                <th>Strike</th>
+                <th>ATM</th>
+                <th>LTP</th>
+                <th>OI</th>
+                <th>COI</th>
+                <th>IV</th>
+                <th>Score</th>
+
+                <!-- New Metrics -->
+                <th>Price Trend</th>
+                <th>EMA Trend</th>
+                <th>VWAP Dev</th>
+                <th>IV Trend</th>
+                <th>OI Speed</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+</div>
+
+<script>
+fetch("dashboard.json?v=" + Date.now())
+.then(r => r.json())
+.then(data => {
+
+    document.getElementById("updated").innerText =
+        "Last Updated: " + (data.last_updated || "—");
+
+    let top = document.getElementById("topArea");
+    top.innerHTML = `
+        <h3>Top 3 Buys</h3>
+        <ul>${(data.top_buy||[]).map(x => `<li>${x.symbol} ${x.option_type} @ ${x.strike} <span class="pill-buy">BUY</span></li>`).join("")}</ul>
+        <h3>Top 3 Sells</h3>
+        <ul>${(data.top_sell||[]).map(x => `<li>${x.symbol} ${x.option_type} @ ${x.strike} <span class="pill-sell">SELL</span></li>`).join("")}</ul>
+    `;
+
+    let tbody = document.querySelector("#signalsTable tbody");
+    tbody.innerHTML = "";
+
+    (data.signals || []).forEach(s => {
+        tbody.innerHTML += `
+        <tr>
+            <td><strong>${s.symbol}</strong></td>
+            <td>${s.signal}</td>
+            <td>${s.option_type}</td>
+            <td>${s.strike}</td>
+            <td>${s.atm}</td>
+            <td>${s.ltp}</td>
+            <td>${s.oi}</td>
+            <td>${s.coi}</td>
+            <td>${s.iv}</td>
+            <td>${s.score}</td>
+
+            <td class="metric">${s.price_trend}</td>
+            <td class="metric">${s.ema_trend}</td>
+            <td class="metric">${s.vwap_dev}</td>
+            <td class="metric">${s.iv_trend}</td>
+            <td class="metric">${s.oi_speed}</td>
+        </tr>`;
+    });
+})
+.catch(err => {
+    document.getElementById("updated").innerText = "Failed to load data";
+    console.log(err);
+});
+</script>
+
+</div>
+</body>
+</html>
 
