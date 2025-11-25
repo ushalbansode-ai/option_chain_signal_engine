@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-11-26 03:23:27",
+  "last_updated": "2025-11-26 04:10:47",
   "signals": [
     {
       "symbol": "TCS",
@@ -30,7 +30,7 @@
       },
       "pcr": 0.716,
       "oi_ratio": 0.647,
-      "timestamp": "2025-11-26 03:23:04"
+      "timestamp": "2025-11-26 04:10:18"
     },
     {
       "symbol": "INFY",
@@ -61,7 +61,7 @@
       },
       "pcr": 0.746,
       "oi_ratio": 0.667,
-      "timestamp": "2025-11-26 03:23:05"
+      "timestamp": "2025-11-26 04:10:20"
     },
     {
       "symbol": "ICICIBANK",
@@ -92,7 +92,7 @@
       },
       "pcr": 0.514,
       "oi_ratio": 0.709,
-      "timestamp": "2025-11-26 03:23:08"
+      "timestamp": "2025-11-26 04:10:25"
     },
     {
       "symbol": "KOTAKBANK",
@@ -123,7 +123,7 @@
       },
       "pcr": 0.475,
       "oi_ratio": 0.8,
-      "timestamp": "2025-11-26 03:23:09"
+      "timestamp": "2025-11-26 04:10:26"
     },
     {
       "symbol": "BHARTIARTL",
@@ -154,7 +154,7 @@
       },
       "pcr": 0.662,
       "oi_ratio": 0.49,
-      "timestamp": "2025-11-26 03:23:11"
+      "timestamp": "2025-11-26 04:10:29"
     },
     {
       "symbol": "ITC",
@@ -185,7 +185,7 @@
       },
       "pcr": 0.361,
       "oi_ratio": 0.923,
-      "timestamp": "2025-11-26 03:23:12"
+      "timestamp": "2025-11-26 04:10:30"
     },
     {
       "symbol": "LT",
@@ -216,7 +216,7 @@
       },
       "pcr": 0.542,
       "oi_ratio": 0.517,
-      "timestamp": "2025-11-26 03:23:14"
+      "timestamp": "2025-11-26 04:10:33"
     },
     {
       "symbol": "AXISBANK",
@@ -247,7 +247,7 @@
       },
       "pcr": 0.716,
       "oi_ratio": 0.585,
-      "timestamp": "2025-11-26 03:23:16"
+      "timestamp": "2025-11-26 04:10:37"
     },
     {
       "symbol": "MARUTI",
@@ -278,7 +278,7 @@
       },
       "pcr": 0.541,
       "oi_ratio": 0.516,
-      "timestamp": "2025-11-26 03:23:17"
+      "timestamp": "2025-11-26 04:10:38"
     },
     {
       "symbol": "HINDUNILVR",
@@ -309,7 +309,7 @@
       },
       "pcr": 0.431,
       "oi_ratio": 0.531,
-      "timestamp": "2025-11-26 03:23:18"
+      "timestamp": "2025-11-26 04:10:39"
     },
     {
       "symbol": "BAJFINANCE",
@@ -340,7 +340,7 @@
       },
       "pcr": 0.491,
       "oi_ratio": 1.613,
-      "timestamp": "2025-11-26 03:23:19"
+      "timestamp": "2025-11-26 04:10:40"
     },
     {
       "symbol": "ADANIENT",
@@ -371,7 +371,7 @@
       },
       "pcr": 0.564,
       "oi_ratio": 0.866,
-      "timestamp": "2025-11-26 03:23:21"
+      "timestamp": "2025-11-26 04:10:41"
     },
     {
       "symbol": "ULTRACEMCO",
@@ -402,7 +402,7 @@
       },
       "pcr": 0.507,
       "oi_ratio": 0.62,
-      "timestamp": "2025-11-26 03:23:22"
+      "timestamp": "2025-11-26 04:10:44"
     },
     {
       "symbol": "SUNPHARMA",
@@ -433,7 +433,7 @@
       },
       "pcr": 0.61,
       "oi_ratio": 0.498,
-      "timestamp": "2025-11-26 03:23:23"
+      "timestamp": "2025-11-26 04:10:45"
     },
     {
       "symbol": "WIPRO",
@@ -464,7 +464,7 @@
       },
       "pcr": 0.544,
       "oi_ratio": 0.502,
-      "timestamp": "2025-11-26 03:23:26"
+      "timestamp": "2025-11-26 04:10:46"
     }
   ],
   "market": [
@@ -473,140 +473,140 @@
       "price": 25884.8,
       "atm": 25900,
       "strikes": 11,
-      "updated": "2025-11-26 03:22:58"
+      "updated": "2025-11-26 04:10:07"
     },
     {
       "symbol": "BANKNIFTY",
       "price": 58820.3,
       "atm": 58800,
       "strikes": 11,
-      "updated": "2025-11-26 03:23:00"
+      "updated": "2025-11-26 04:10:13"
     },
     {
       "symbol": "RELIANCE",
       "price": 1540.0,
       "atm": 1540,
       "strikes": 11,
-      "updated": "2025-11-26 03:23:02"
+      "updated": "2025-11-26 04:10:17"
     },
     {
       "symbol": "TCS",
       "price": 3115.7,
       "atm": 3120,
       "strikes": 11,
-      "updated": "2025-11-26 03:23:04"
+      "updated": "2025-11-26 04:10:18"
     },
     {
       "symbol": "INFY",
       "price": 1530.2,
       "atm": 1540,
       "strikes": 11,
-      "updated": "2025-11-26 03:23:05"
+      "updated": "2025-11-26 04:10:20"
     },
     {
       "symbol": "HDFCBANK",
       "price": 989.45,
       "atm": 990,
       "strikes": 11,
-      "updated": "2025-11-26 03:23:06"
+      "updated": "2025-11-26 04:10:22"
     },
     {
       "symbol": "ICICIBANK",
       "price": 1356.9,
       "atm": 1360,
       "strikes": 11,
-      "updated": "2025-11-26 03:23:08"
+      "updated": "2025-11-26 04:10:25"
     },
     {
       "symbol": "KOTAKBANK",
       "price": 2068.4,
       "atm": 2060,
       "strikes": 11,
-      "updated": "2025-11-26 03:23:09"
+      "updated": "2025-11-26 04:10:26"
     },
     {
       "symbol": "BHARTIARTL",
       "price": 2156.6,
       "atm": 2160,
       "strikes": 11,
-      "updated": "2025-11-26 03:23:11"
+      "updated": "2025-11-26 04:10:29"
     },
     {
       "symbol": "ITC",
       "price": 400.4,
       "atm": 400,
       "strikes": 11,
-      "updated": "2025-11-26 03:23:12"
+      "updated": "2025-11-26 04:10:30"
     },
     {
       "symbol": "SBIN",
       "price": 983.5,
       "atm": 985,
       "strikes": 11,
-      "updated": "2025-11-26 03:23:13"
+      "updated": "2025-11-26 04:10:32"
     },
     {
       "symbol": "LT",
       "price": 3982.2,
       "atm": 3980,
       "strikes": 11,
-      "updated": "2025-11-26 03:23:14"
+      "updated": "2025-11-26 04:10:33"
     },
     {
       "symbol": "AXISBANK",
       "price": 1267.1,
       "atm": 1270,
       "strikes": 11,
-      "updated": "2025-11-26 03:23:16"
+      "updated": "2025-11-26 04:10:37"
     },
     {
       "symbol": "MARUTI",
       "price": 15910.0,
       "atm": 15900,
       "strikes": 11,
-      "updated": "2025-11-26 03:23:17"
+      "updated": "2025-11-26 04:10:38"
     },
     {
       "symbol": "HINDUNILVR",
       "price": 2411.0,
       "atm": 2420,
       "strikes": 11,
-      "updated": "2025-11-26 03:23:18"
+      "updated": "2025-11-26 04:10:39"
     },
     {
       "symbol": "BAJFINANCE",
       "price": 985.0,
       "atm": 980,
       "strikes": 11,
-      "updated": "2025-11-26 03:23:19"
+      "updated": "2025-11-26 04:10:40"
     },
     {
       "symbol": "ADANIENT",
       "price": 2329.4,
       "atm": 2326,
       "strikes": 11,
-      "updated": "2025-11-26 03:23:21"
+      "updated": "2025-11-26 04:10:41"
     },
     {
       "symbol": "ULTRACEMCO",
       "price": 11555.0,
       "atm": 11600,
       "strikes": 11,
-      "updated": "2025-11-26 03:23:22"
+      "updated": "2025-11-26 04:10:44"
     },
     {
       "symbol": "SUNPHARMA",
       "price": 1767.8,
       "atm": 1760,
       "strikes": 11,
-      "updated": "2025-11-26 03:23:23"
+      "updated": "2025-11-26 04:10:45"
     },
     {
       "symbol": "WIPRO",
       "price": 245.59,
       "atm": 245,
       "strikes": 11,
-      "updated": "2025-11-26 03:23:26"
+      "updated": "2025-11-26 04:10:46"
     }
   ],
   "top_buy": [],
@@ -640,7 +640,7 @@
       },
       "pcr": 0.716,
       "oi_ratio": 0.647,
-      "timestamp": "2025-11-26 03:23:04"
+      "timestamp": "2025-11-26 04:10:18"
     },
     {
       "symbol": "INFY",
@@ -671,7 +671,7 @@
       },
       "pcr": 0.746,
       "oi_ratio": 0.667,
-      "timestamp": "2025-11-26 03:23:05"
+      "timestamp": "2025-11-26 04:10:20"
     },
     {
       "symbol": "ICICIBANK",
@@ -702,7 +702,7 @@
       },
       "pcr": 0.514,
       "oi_ratio": 0.709,
-      "timestamp": "2025-11-26 03:23:08"
+      "timestamp": "2025-11-26 04:10:25"
     }
   ]
 }
