@@ -32,4 +32,4 @@ jobs:
         git add docs/dashboard.json
         git commit -m "Auto-update dashboard" || echo "No changes"
         git push
-
+        
