@@ -1,4 +1,3 @@
-# ---------------- Part 1 of 2 ----------------
 #!/usr/bin/env python3
 """
 option_signals.py  (Option B - Full Pro)
@@ -84,7 +83,7 @@ def save_snapshot(data, path=SNAPSHOT_FILE):
         with open(path, "w", encoding="utf-8") as f:
             json.dump(data, f, indent=2)
     except Exception as e:
-        print("❌ Error saving snapshot:", e)
+        print("✖ Error saving snapshot:", e)
 
 # ------------------ Engine (fetch + analyze) ------------------
 class AdvancedOptionSignalGenerator:
@@ -121,9 +120,9 @@ class AdvancedOptionSignalGenerator:
             r = self.session.get(url, timeout=REQUEST_TIMEOUT)
             if r.status_code == 200:
                 return r.json()
-            print(f"❌ HTTP {r.status_code} for {symbol}")
+            print(f"✖ HTTP {r.status_code} for {symbol}")
         except Exception as e:
-            print(f"❌ Fetch error for {symbol}: {e}")
+            print(f"✖ Fetch error for {symbol}: {e}")
         return None
 
     def analyze_atm_strikes(self, raw):
@@ -191,10 +190,16 @@ class AdvancedOptionSignalGenerator:
     def compute_price_trend(self, symbol, underlying):
         """Compute simple price trend percent vs previous snapshot (last underlying)"""
         prev_sym = self.snapshot.get("symbols", {}).get(symbol, {})
-        prev_price = prev_sym.get("underlying")
+        # support both old-style underlying and meta.underlying
+        prev_price = None
+        if prev_sym:
+            prev_price = prev_sym.get("underlying") or (prev_sym.get("meta") or {}).get("underlying")
         if prev_price:
-            pct = (underlying - prev_price) / prev_price
-            return round(pct * 100.0, 4)  # percentage
+            try:
+                pct = (underlying - float(prev_price)) / float(prev_price)
+                return round(pct * 100.0, 4)  # percentage
+            except Exception:
+                return 0.0
         return 0.0
 
     def compute_ema_and_update(self, symbol, strike, option_ltp):
@@ -248,9 +253,7 @@ class AdvancedOptionSignalGenerator:
             iv_delta = iv_now - prev_iv
         return iv_delta, prev_iv
 # ---------------- Part 1 end ----------------
-# ---------------- Part 2 of 2 ----------------
 import math
-
 class AdvancedOptionSignalGenerator(AdvancedOptionSignalGenerator):
     """Extends itself with scoring & run_all (keeps methods from Part 1)."""
 
@@ -262,10 +265,16 @@ class AdvancedOptionSignalGenerator(AdvancedOptionSignalGenerator):
         prev_sym = self.snapshot.get("symbols", {}).get(symbol, {})
         prev_time = self.snapshot.get("timestamp")
         if not prev_time:
+            # still persist coi into snapshot even if no prev timestamp
+            self.new_snapshot["symbols"].setdefault(symbol, {}).setdefault("strikes", {}).setdefault(str(strike), {})
+            self.new_snapshot["symbols"][symbol]["strikes"][str(strike)]["coi"] = coi
             return 0.0
         try:
             prev_dt = datetime.strptime(prev_time, "%Y-%m-%d %H:%M:%S")
         except Exception:
+            # persist and return 0
+            self.new_snapshot["symbols"].setdefault(symbol, {}).setdefault("strikes", {}).setdefault(str(strike), {})
+            self.new_snapshot["symbols"][symbol]["strikes"][str(strike)]["coi"] = coi
             return 0.0
         now_dt = datetime.utcnow() + timedelta(hours=5, minutes=30)
         minutes = max(1.0, (now_dt - prev_dt).total_seconds() / 60.0)
@@ -334,11 +343,13 @@ class AdvancedOptionSignalGenerator(AdvancedOptionSignalGenerator):
                 iv = info.get("ce_iv", 0.0)
                 vol = info.get("ce_vol", 0)
                 coi = info.get("ce_chg", 0)
+                oi_val = info.get("ce_oi", 0)
             else:
                 ltp = info.get("pe_ltp", 0.0)
                 iv = info.get("pe_iv", 0.0)
                 vol = info.get("pe_vol", 0)
                 coi = info.get("pe_chg", 0)
+                oi_val = info.get("pe_oi", 0)
 
             # compute metrics using snapshot persistence helpers
             # price trend (symbol-level)
@@ -352,7 +363,10 @@ class AdvancedOptionSignalGenerator(AdvancedOptionSignalGenerator):
             vwap, prev_num, prev_vol = self.compute_vwap_and_update(analysis_data.get("symbol"), strike, ltp, vol)
             vwap_dev_pct = 0.0
             if vwap:
-                vwap_dev_pct = ((ltp - vwap) / vwap) * 100.0
+                try:
+                    vwap_dev_pct = ((ltp - vwap) / vwap) * 100.0
+                except Exception:
+                    vwap_dev_pct = 0.0
             # iv trend
             iv_delta, prev_iv = self.compute_iv_trend_and_update(analysis_data.get("symbol"), strike, iv)
             iv_delta = iv_delta if iv_delta is not None else 0.0
@@ -388,6 +402,7 @@ class AdvancedOptionSignalGenerator(AdvancedOptionSignalGenerator):
                 "iv": iv,
                 "volume": vol,
                 "coi": coi,
+                "oi": oi_val,
                 "score": score,
                 "metrics": metrics
             }
@@ -451,20 +466,29 @@ class AdvancedOptionSignalGenerator(AdvancedOptionSignalGenerator):
             return None
 
         # fill output structure (export metrics for transparency)
+        metrics = best.get("metrics", {})
         out = {
             "symbol": analysis.get("symbol"),
             "signal": label,
             "option_type": side,
-            "strike": best["strike"],
+            "strike": best.get("strike"),
             "atm": analysis.get("atm_strike"),
-            "distance_from_atm": best.get("distance_from_atm", 0),
+            "distance_from_atm": abs(best.get("strike") - analysis.get("atm_strike")) if best.get("strike") and analysis.get("atm_strike") else 0,
             "ltp": best.get("ltp"),
-            "oi": best.get("oi"),
-            "coi": best.get("coi"),
+            "oi": best.get("oi"),      # total open interest at strike (CE/PE depending on side)
+            "coi": best.get("coi"),    # change in open interest
             "volume": best.get("volume"),
             "iv": best.get("iv"),
             "score": best.get("score"),
-            "metrics": best.get("metrics"),
+
+            # Expose metrics at top-level using Option C keys
+            "price_trend": metrics.get("price_trend_pct"),
+            "ema_trend": metrics.get("ema_delta"),
+            "vwap_dev": metrics.get("vwap_dev_pct"),
+            "iv_trend": metrics.get("iv_delta"),
+            "oi_speed": metrics.get("oi_speed"),
+
+            "metrics": metrics,  # keep full metrics if needed
             "pcr": round(pcr, 3),
             "oi_ratio": round(oi_ratio, 3),
             "timestamp": ist_now_str()
@@ -481,12 +505,12 @@ class AdvancedOptionSignalGenerator(AdvancedOptionSignalGenerator):
             print(f"\n🔍 Processing {sym}")
             raw = self.fetch_option_chain(sym)
             if not raw:
-                print(f"❌ No data for {sym}")
+                print(f"✖ No data for {sym}")
                 continue
 
             analysis = self.analyze_atm_strikes(raw)
             if not analysis:
-                print(f"❌ ATM analysis error for {sym}")
+                print(f"✖ ATM analysis error for {sym}")
                 continue
 
             # attach symbol for metric functions
@@ -496,9 +520,9 @@ class AdvancedOptionSignalGenerator(AdvancedOptionSignalGenerator):
             sig = self.generate_signal_from_analysis(analysis)
             if sig:
                 all_signals.append(sig)
-                print(f"   ✅ {sig['signal']} {sig['option_type']} @{sig['strike']} (score {sig['score']})")
+                print(f"   ✓ {sig['signal']} {sig['option_type']} @{sig['strike']} (score {sig['score']})")
             else:
-                print(f"   ⏸ No clear signal for {sym}")
+                print(f"   ◼ No clear signal for {sym}")
 
             # dashboard summarised row
             dashboard_data.append({
@@ -563,7 +587,7 @@ class AdvancedOptionSignalGenerator(AdvancedOptionSignalGenerator):
         self.new_snapshot["timestamp"] = ist_now_str()
         # Save snapshot file (overwrite)
         save_snapshot(self.new_snapshot)
-        print("\n✅ Completed.")
+        print("\n✓ Completed.")
         return all_signals
 
     # ------------------ IO helpers ------------------
@@ -580,25 +604,25 @@ class AdvancedOptionSignalGenerator(AdvancedOptionSignalGenerator):
                     writer.writerow(r)
             print(f"📄 Saved CSV: {filename}")
         except Exception as e:
-            print(f"❌ CSV error {e}")
+            print(f"✖ CSV error {e}")
 
     def save_json(self, filename, data):
         try:
             os.makedirs(os.path.dirname(filename), exist_ok=True)
             with open(filename, "w", encoding="utf-8") as f:
                 json.dump(data, f, indent=2)
-            print(f"🟢 JSON saved: {filename}")
+            print(f"📝 JSON saved: {filename}")
         except Exception as e:
-            print(f"❌ JSON error {filename}: {e}")
+            print(f"✖ JSON error {filename}: {e}")
 
 
 # ------------------ RUN ------------------
 def main():
-    print("\n🔵 Starting NSE Option Signals (Option B - Full Pro)…")
+    print("\n🧪 Starting NSE Option Signals (Option B - Full Pro)…")
     engine = AdvancedOptionSignalGenerator()
     engine.run_all()
-    print("🔚 Done.")
+    print("✔ Done.")
 
 if __name__ == "__main__":
     main()
-# ---------------- Part 2 end ----------------
+# ---------------- Part 2 end ---------
