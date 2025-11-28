@@ -1,244 +1,244 @@
 {
-  "timestamp": "2025-11-28 11:22:14",
+  "timestamp": "2025-11-28 11:30:50",
   "symbols": {
     "RELIANCE": {
       "strikes": {
+        "1520": {
+          "ema_ltp": 8.55,
+          "cum_vwap_num": 13055.85,
+          "cum_vol": 1527,
+          "iv": 17.16,
+          "coi": -123
+        },
         "1530": {
-          "ema_ltp": 10.321820425987244,
-          "cum_vwap_num": 434363.6,
-          "cum_vol": 34939,
-          "iv": 16.87,
-          "coi": 13
+          "ema_ltp": 10.410910212993622,
+          "cum_vwap_num": 450544.1,
+          "cum_vol": 36480,
+          "iv": 16.83,
+          "coi": 4
         },
         "1540": {
-          "ema_ltp": 12.61610188484192,
-          "cum_vwap_num": 866515.5000000001,
-          "cum_vol": 57236,
-          "iv": 16.68,
-          "coi": 92
+          "ema_ltp": 12.75805094242096,
+          "cum_vwap_num": 892870.2000000001,
+          "cum_vol": 59279,
+          "iv": 16.8,
+          "coi": 87
         },
         "1550": {
-          "ema_ltp": 15.358462512493134,
-          "cum_vwap_num": 1570673.3,
-          "cum_vol": 85951,
-          "iv": 16.56,
-          "coi": 143
+          "ema_ltp": 15.529231256246566,
+          "cum_vwap_num": 1621823.9000000001,
+          "cum_vol": 89209,
+          "iv": 16.57,
+          "coi": 138
         },
         "1560": {
-          "ema_ltp": 18.676921141147616,
-          "cum_vwap_num": 2542704.8000000007,
-          "cum_vol": 114716,
-          "iv": 16.44,
-          "coi": 351
+          "ema_ltp": 18.863460570573807,
+          "cum_vwap_num": 2623305.3500000006,
+          "cum_vol": 118947,
+          "iv": 16.62,
+          "coi": 358
         },
         "1570": {
-          "ema_ltp": 22.428454327583314,
-          "cum_vwap_num": 2074379.1000000003,
-          "cum_vol": 79140,
-          "iv": 16.4,
+          "ema_ltp": 22.689227163791656,
+          "cum_vwap_num": 2171939.5500000003,
+          "cum_vol": 83391,
+          "iv": 16.54,
           "coi": 337
         },
         "1580": {
-          "ema_ltp": 26.80609743595123,
-          "cum_vwap_num": 1495926.0000000002,
-          "cum_vol": 48803,
-          "iv": 16.38,
-          "coi": 405
+          "ema_ltp": 27.128048717975616,
+          "cum_vwap_num": 1599220.3500000003,
+          "cum_vol": 52566,
+          "iv": 16.46,
+          "coi": 395
         },
         "1590": {
-          "ema_ltp": 31.652844953536988,
-          "cum_vwap_num": 534555.55,
-          "cum_vol": 14825,
-          "iv": 16.44,
+          "ema_ltp": 32.07642247676849,
+          "cum_vwap_num": 568095.55,
+          "cum_vol": 15857,
+          "iv": 16.46,
           "coi": 126
         },
         "1600": {
-          "ema_ltp": 37.188666343688965,
-          "cum_vwap_num": 1126146.7,
-          "cum_vol": 26994,
-          "iv": 16.46,
-          "coi": 253
+          "ema_ltp": 37.59433317184448,
+          "cum_vwap_num": 1194774.7,
+          "cum_vol": 28800,
+          "iv": 16.67,
+          "coi": 244
         },
         "1610": {
-          "ema_ltp": 43.25528092384339,
-          "cum_vwap_num": 121199.95,
-          "cum_vol": 2627,
-          "iv": 16.71,
-          "coi": 71
+          "ema_ltp": 43.77764046192169,
+          "cum_vwap_num": 138521.25,
+          "cum_vol": 3018,
+          "iv": 16.79,
+          "coi": 63
         },
         "1620": {
-          "ema_ltp": 49.99921875,
-          "cum_vwap_num": 37916.799999999996,
-          "cum_vol": 735,
-          "iv": 17.05,
-          "coi": 30
-        },
-        "1630": {
-          "ema_ltp": 57.45,
-          "cum_vwap_num": 2470.35,
-          "cum_vol": 43,
-          "iv": 17.27,
-          "coi": 26
+          "ema_ltp": 50.499609375,
+          "cum_vwap_num": 45770.799999999996,
+          "cum_vol": 889,
+          "iv": 17.09,
+          "coi": 29
         }
       },
       "meta": {
-        "underlying": 1575.1
+        "underlying": 1572.5
       }
     },
     "HDFCBANK": {
       "strikes": {
         "985": {
-          "ema_ltp": 6.68125,
-          "cum_vwap_num": 2937.7,
-          "cum_vol": 434,
-          "iv": 16.16,
-          "coi": 26
+          "ema_ltp": 6.840625,
+          "cum_vwap_num": 4001.7,
+          "cum_vol": 586,
+          "iv": 16.2,
+          "coi": 29
         },
         "990": {
-          "ema_ltp": 8.03125,
-          "cum_vwap_num": 17201.8,
-          "cum_vol": 2113,
-          "iv": 16.26,
+          "ema_ltp": 8.190625,
+          "cum_vwap_num": 23840.05,
+          "cum_vol": 2908,
+          "iv": 16.17,
           "coi": 10
         },
         "995": {
-          "ema_ltp": 9.2875,
-          "cum_vwap_num": 15713.599999999999,
-          "cum_vol": 1674,
-          "iv": 16.17,
-          "coi": 9
+          "ema_ltp": 9.51875,
+          "cum_vwap_num": 22060.85,
+          "cum_vol": 2325,
+          "iv": 16.07,
+          "coi": 8
         },
         "1000": {
-          "ema_ltp": 11.125,
-          "cum_vwap_num": 119525.75,
-          "cum_vol": 10590,
-          "iv": 16.1,
-          "coi": -151
+          "ema_ltp": 11.3125,
+          "cum_vwap_num": 159453.75,
+          "cum_vol": 14062,
+          "iv": 16.14,
+          "coi": -165
         },
         "1005": {
-          "ema_ltp": 12.91875,
-          "cum_vwap_num": 49205.15,
-          "cum_vol": 3762,
-          "iv": 16.09,
-          "coi": 30
+          "ema_ltp": 13.209375,
+          "cum_vwap_num": 66431.15,
+          "cum_vol": 5038,
+          "iv": 16.12,
+          "coi": 28
         },
         "1010": {
-          "ema_ltp": 15.025,
-          "cum_vwap_num": 108700.29999999999,
-          "cum_vol": 7177,
-          "iv": 16.13,
-          "coi": 103
+          "ema_ltp": 15.287500000000001,
+          "cum_vwap_num": 151011.84999999998,
+          "cum_vol": 9898,
+          "iv": 16.14,
+          "coi": 96
         },
         "1015": {
-          "ema_ltp": 17.3125,
-          "cum_vwap_num": 24020.0,
-          "cum_vol": 1379,
-          "iv": 16.12,
-          "coi": 41
+          "ema_ltp": 17.68125,
+          "cum_vwap_num": 34362.65,
+          "cum_vol": 1952,
+          "iv": 16.16,
+          "coi": 31
         },
         "1020": {
-          "ema_ltp": 19.90625,
-          "cum_vwap_num": 64770.75,
-          "cum_vol": 3215,
-          "iv": 16.19,
-          "coi": -15
+          "ema_ltp": 20.303125,
+          "cum_vwap_num": 86443.65,
+          "cum_vol": 4262,
+          "iv": 16.27,
+          "coi": -16
         },
         "1025": {
-          "ema_ltp": 22.5625,
-          "cum_vwap_num": 7750.7,
-          "cum_vol": 342,
-          "iv": 15.84,
+          "ema_ltp": 23.10625,
+          "cum_vwap_num": 10943.45,
+          "cum_vol": 477,
+          "iv": 16.33,
           "coi": 28
         },
         "1030": {
-          "ema_ltp": 25.643749999999997,
-          "cum_vwap_num": 10410.65,
-          "cum_vol": 403,
-          "iv": 16.2,
-          "coi": -6
+          "ema_ltp": 26.046875,
+          "cum_vwap_num": 14431.05,
+          "cum_vol": 555,
+          "iv": 16.48,
+          "coi": -3
         },
         "1035": {
-          "ema_ltp": 28.1,
-          "cum_vwap_num": 1461.6,
-          "cum_vol": 52,
-          "iv": 15.71,
+          "ema_ltp": 28.200000000000003,
+          "cum_vwap_num": 2225.7,
+          "cum_vol": 79,
+          "iv": 16.59,
           "coi": -2
         }
       },
       "meta": {
-        "underlying": 1011.0
+        "underlying": 1008.75
       }
     },
     "KOTAKBANK": {
       "strikes": {
         "2040": {
           "ema_ltp": 9.3,
-          "cum_vwap_num": 10062.6,
-          "cum_vol": 1082,
-          "iv": 17.84,
-          "coi": -66
+          "cum_vwap_num": 21650.4,
+          "cum_vol": 2328,
+          "iv": 17.94,
+          "coi": -125
         },
         "2060": {
           "ema_ltp": 12.55,
-          "cum_vwap_num": 6814.650000000001,
-          "cum_vol": 543,
-          "iv": 17.27,
-          "coi": -18
+          "cum_vwap_num": 13930.5,
+          "cum_vol": 1110,
+          "iv": 17.58,
+          "coi": -21
         },
         "2080": {
-          "ema_ltp": 16.8,
-          "cum_vwap_num": 10096.800000000001,
-          "cum_vol": 601,
-          "iv": 17.11,
-          "coi": -14
+          "ema_ltp": 16.9,
+          "cum_vwap_num": 21333.800000000003,
+          "cum_vol": 1262,
+          "iv": 17.3,
+          "coi": -18
         },
         "2100": {
-          "ema_ltp": 22.75,
-          "cum_vwap_num": 35262.5,
-          "cum_vol": 1550,
+          "ema_ltp": 22.925,
+          "cum_vwap_num": 75641.3,
+          "cum_vol": 3298,
           "iv": 17.18,
-          "coi": 178
+          "coi": 175
         },
         "2120": {
-          "ema_ltp": 29.9,
-          "cum_vwap_num": 30438.199999999997,
-          "cum_vol": 1018,
-          "iv": 17.1,
-          "coi": 118
+          "ema_ltp": 30.125,
+          "cum_vwap_num": 64066.0,
+          "cum_vol": 2126,
+          "iv": 17.19,
+          "coi": 129
         },
         "2140": {
-          "ema_ltp": 39.3,
-          "cum_vwap_num": 25702.199999999997,
-          "cum_vol": 654,
-          "iv": 17.12,
-          "coi": 11
+          "ema_ltp": 39.425,
+          "cum_vwap_num": 57777.25,
+          "cum_vol": 1465,
+          "iv": 17.29,
+          "coi": -46
         },
         "2160": {
-          "ema_ltp": 49.7,
-          "cum_vwap_num": 13071.1,
-          "cum_vol": 263,
-          "iv": 17.11,
-          "coi": 29
+          "ema_ltp": 49.975,
+          "cum_vwap_num": 28347.1,
+          "cum_vol": 567,
+          "iv": 17.59,
+          "coi": 45
         },
         "2180": {
-          "ema_ltp": 62.5,
-          "cum_vwap_num": 1187.5,
-          "cum_vol": 19,
-          "iv": 17.68,
-          "coi": 6
+          "ema_ltp": 62.575,
+          "cum_vwap_num": 3254.95,
+          "cum_vol": 52,
+          "iv": 18.09,
+          "coi": 7
         },
         "2200": {
-          "ema_ltp": 76.15,
-          "cum_vwap_num": 4188.25,
-          "cum_vol": 55,
-          "iv": 18.43,
-          "coi": 11
+          "ema_ltp": 76.325,
+          "cum_vwap_num": 8931.25,
+          "cum_vol": 117,
+          "iv": 18.45,
+          "coi": 9
         },
         "2220": {
           "ema_ltp": 94.2,
-          "cum_vwap_num": 376.8,
-          "cum_vol": 4,
-          "iv": 18.9,
+          "cum_vwap_num": 753.6,
+          "cum_vol": 8,
+          "iv": 20.33,
           "coi": 1
         },
         "2240": {
@@ -250,91 +250,91 @@
         }
       },
       "meta": {
-        "underlying": 2130.8
+        "underlying": 2131.0
       }
     },
     "HINDUNILVR": {
       "strikes": {
         "2360": {
-          "ema_ltp": 2.3669921875,
-          "cum_vwap_num": 51153.200000000004,
-          "cum_vol": 14825,
-          "iv": 11.33,
-          "coi": 105
+          "ema_ltp": 2.30849609375,
+          "cum_vwap_num": 53056.700000000004,
+          "cum_vol": 15671,
+          "iv": 11.31,
+          "coi": 104
         },
         "2380": {
-          "ema_ltp": 3.36953125,
-          "cum_vwap_num": 90147.64999999998,
-          "cum_vol": 18207,
-          "iv": 10.73,
-          "coi": 128
+          "ema_ltp": 3.2847656250000004,
+          "cum_vwap_num": 93648.44999999998,
+          "cum_vol": 19301,
+          "iv": 10.7,
+          "coi": 129
         },
         "2400": {
-          "ema_ltp": 5.106249999999999,
-          "cum_vwap_num": 176116.40000000002,
-          "cum_vol": 24952,
-          "iv": 10.32,
-          "coi": 83
+          "ema_ltp": 5.003125,
+          "cum_vwap_num": 187945.00000000003,
+          "cum_vol": 27366,
+          "iv": 10.31,
+          "coi": 82
         },
         "2420": {
-          "ema_ltp": 7.9271484375,
-          "cum_vwap_num": 209315.05,
-          "cum_vol": 18792,
-          "iv": 10.01,
-          "coi": 67
+          "ema_ltp": 7.78857421875,
+          "cum_vwap_num": 221975.8,
+          "cum_vol": 20447,
+          "iv": 9.97,
+          "coi": 70
         },
         "2440": {
-          "ema_ltp": 12.8248046875,
-          "cum_vwap_num": 402258.49999999994,
-          "cum_vol": 23224,
-          "iv": 10.17,
+          "ema_ltp": 12.687402343750001,
+          "cum_vwap_num": 426981.99999999994,
+          "cum_vol": 25194,
+          "iv": 10.13,
           "coi": 288
         },
         "2460": {
-          "ema_ltp": 20.84453125,
-          "cum_vwap_num": 457295.05,
-          "cum_vol": 17834,
-          "iv": 10.55,
-          "coi": 388
+          "ema_ltp": 20.647265625,
+          "cum_vwap_num": 499381.14999999997,
+          "cum_vol": 19892,
+          "iv": 10.51,
+          "coi": 395
         },
         "2480": {
-          "ema_ltp": 31.764843749999997,
-          "cum_vwap_num": 287479.75,
-          "cum_vol": 7534,
-          "iv": 11.54,
-          "coi": 185
+          "ema_ltp": 31.857421875,
+          "cum_vwap_num": 312816.1,
+          "cum_vol": 8327,
+          "iv": 11.19,
+          "coi": 183
         },
         "2500": {
-          "ema_ltp": 45.6033203125,
-          "cum_vwap_num": 281536.25,
-          "cum_vol": 5360,
-          "iv": 12.66,
-          "coi": -73
+          "ema_ltp": 45.40166015625,
+          "cum_vwap_num": 311684.65,
+          "cum_vol": 6027,
+          "iv": 12.17,
+          "coi": -66
         },
         "2520": {
-          "ema_ltp": 61.373828125,
-          "cum_vwap_num": 88429.45,
-          "cum_vol": 1293,
-          "iv": 13.71,
-          "coi": 21
+          "ema_ltp": 60.8119140625,
+          "cum_vwap_num": 101081.95,
+          "cum_vol": 1503,
+          "iv": 13.28,
+          "coi": 23
         },
         "2540": {
-          "ema_ltp": 74.040625,
-          "cum_vwap_num": 8505.15,
-          "cum_vol": 112,
-          "iv": 14.09,
-          "coi": 10
+          "ema_ltp": 75.8453125,
+          "cum_vwap_num": 10912.3,
+          "cum_vol": 143,
+          "iv": 14.41,
+          "coi": 11
         },
         "2560": {
-          "ema_ltp": 96.36093749999999,
-          "cum_vwap_num": 21243.6,
-          "cum_vol": 219,
-          "iv": 15.85,
+          "ema_ltp": 96.38046875,
+          "cum_vwap_num": 30305.199999999997,
+          "cum_vol": 313,
+          "iv": 16.03,
           "coi": -29
         }
       },
       "meta": {
-        "underlying": 2460.8
+        "underlying": 2460.0
       }
     },
     "ADANIENT": {
@@ -347,11 +347,11 @@
           "coi": 0
         },
         "2280": {
-          "ema_ltp": 55.90625,
-          "cum_vwap_num": 255180.3,
-          "cum_vol": 4444,
-          "iv": 28.06,
-          "coi": 300
+          "ema_ltp": 54.253125,
+          "cum_vwap_num": 323034.3,
+          "cum_vol": 5734,
+          "iv": 28.53,
+          "coi": 303
         },
         "2288": {
           "ema_ltp": 0.0,
@@ -361,59 +361,59 @@
           "coi": 0
         },
         "2300": {
-          "ema_ltp": 64.6875,
-          "cum_vwap_num": 734557.3,
-          "cum_vol": 11121,
-          "iv": 28.14,
-          "coi": 1073
+          "ema_ltp": 63.01875,
+          "cum_vwap_num": 959895.8500000001,
+          "cum_vol": 14794,
+          "iv": 28.54,
+          "coi": 1072
         },
         "2307": {
-          "ema_ltp": 67.9875,
-          "cum_vwap_num": 90223.65,
-          "cum_vol": 1295,
-          "iv": 28.07,
-          "coi": 89
+          "ema_ltp": 66.14375,
+          "cum_vwap_num": 116458.04999999999,
+          "cum_vol": 1703,
+          "iv": 28.52,
+          "coi": 99
         },
         "2320": {
-          "ema_ltp": 74.1375,
-          "cum_vwap_num": 114970.54999999999,
-          "cum_vol": 1536,
-          "iv": 28.12,
-          "coi": 188
+          "ema_ltp": 72.54375,
+          "cum_vwap_num": 158888.59999999998,
+          "cum_vol": 2155,
+          "iv": 28.4,
+          "coi": 203
         },
         "2326": {
-          "ema_ltp": 77.78750000000001,
-          "cum_vwap_num": 64692.899999999994,
-          "cum_vol": 814,
-          "iv": 28.14,
-          "coi": 54
+          "ema_ltp": 76.29375,
+          "cum_vwap_num": 83018.9,
+          "cum_vol": 1059,
+          "iv": 28.81,
+          "coi": 57
         },
         "2340": {
-          "ema_ltp": 84.99375,
-          "cum_vwap_num": 61368.59999999999,
-          "cum_vol": 709,
-          "iv": 27.96,
-          "coi": 40
+          "ema_ltp": 83.071875,
+          "cum_vwap_num": 80763.45,
+          "cum_vol": 948,
+          "iv": 28.76,
+          "coi": 42
         },
         "2346": {
-          "ema_ltp": 88.86250000000001,
-          "cum_vwap_num": 18926.15,
-          "cum_vol": 209,
-          "iv": 28.88,
-          "coi": -7
+          "ema_ltp": 86.55625,
+          "cum_vwap_num": 24486.65,
+          "cum_vol": 275,
+          "iv": 29.05,
+          "coi": -8
         },
         "2360": {
           "ema_ltp": 92.65,
-          "cum_vwap_num": 12137.150000000001,
-          "cum_vol": 131,
-          "iv": 29.2,
+          "cum_vwap_num": 24274.300000000003,
+          "cum_vol": 262,
+          "iv": 29.06,
           "coi": 26
         },
         "2365": {
           "ema_ltp": 98.1,
-          "cum_vwap_num": 2550.6,
-          "cum_vol": 26,
-          "iv": 30.05,
+          "cum_vwap_num": 5101.2,
+          "cum_vol": 52,
+          "iv": 29.91,
           "coi": 9
         }
       },
@@ -424,74 +424,74 @@
     "SUNPHARMA": {
       "strikes": {
         "1720": {
-          "ema_ltp": 4.4140625,
-          "cum_vwap_num": 3156.3500000000004,
-          "cum_vol": 654,
-          "iv": 17.48,
-          "coi": 15
+          "ema_ltp": 4.48203125,
+          "cum_vwap_num": 3593.1500000000005,
+          "cum_vol": 750,
+          "iv": 17.05,
+          "coi": 22
         },
         "1740": {
-          "ema_ltp": 6.585546875,
-          "cum_vwap_num": 12589.599999999999,
-          "cum_vol": 1771,
-          "iv": 17.02,
-          "coi": 1
+          "ema_ltp": 6.8677734375,
+          "cum_vwap_num": 14026.749999999998,
+          "cum_vol": 1972,
+          "iv": 16.71,
+          "coi": 2
         },
         "1760": {
-          "ema_ltp": 9.545703125,
-          "cum_vwap_num": 12440.75,
-          "cum_vol": 1191,
-          "iv": 16.67,
-          "coi": 20
+          "ema_ltp": 9.9228515625,
+          "cum_vwap_num": 13728.25,
+          "cum_vol": 1316,
+          "iv": 16.34,
+          "coi": 19
         },
         "1780": {
-          "ema_ltp": 14.3359375,
-          "cum_vwap_num": 30630.649999999998,
-          "cum_vol": 1990,
-          "iv": 16.69,
+          "ema_ltp": 14.51796875,
+          "cum_vwap_num": 33541.25,
+          "cum_vol": 2188,
+          "iv": 16.48,
           "coi": 19
         },
         "1800": {
-          "ema_ltp": 20.2421875,
-          "cum_vwap_num": 128173.65,
-          "cum_vol": 5946,
-          "iv": 16.45,
-          "coi": 75
+          "ema_ltp": 20.94609375,
+          "cum_vwap_num": 143480.19999999998,
+          "cum_vol": 6653,
+          "iv": 16.23,
+          "coi": 65
         },
         "1820": {
-          "ema_ltp": 28.549999999999997,
-          "cum_vwap_num": 54842.2,
-          "cum_vol": 1832,
-          "iv": 16.58,
+          "ema_ltp": 29.2,
+          "cum_vwap_num": 63588.25,
+          "cum_vol": 2125,
+          "iv": 16.4,
           "coi": 70
         },
         "1840": {
-          "ema_ltp": 38.255078125,
-          "cum_vwap_num": 28554.0,
-          "cum_vol": 719,
-          "iv": 16.73,
-          "coi": 72
+          "ema_ltp": 39.4775390625,
+          "cum_vwap_num": 36368.4,
+          "cum_vol": 911,
+          "iv": 16.26,
+          "coi": 73
         },
         "1860": {
-          "ema_ltp": 48.3984375,
-          "cum_vwap_num": 4569.799999999999,
-          "cum_vol": 84,
-          "iv": 17.37,
+          "ema_ltp": 49.19921875,
+          "cum_vwap_num": 5069.799999999999,
+          "cum_vol": 94,
+          "iv": 16.19,
           "coi": 1
         },
         "1880": {
-          "ema_ltp": 62.500781249999996,
-          "cum_vwap_num": 8642.500000000002,
-          "cum_vol": 123,
-          "iv": 17.89,
+          "ema_ltp": 63.55039062499999,
+          "cum_vwap_num": 9353.100000000002,
+          "cum_vol": 134,
+          "iv": 16.88,
           "coi": 4
         },
         "1900": {
-          "ema_ltp": 77.915234375,
-          "cum_vwap_num": 33818.45,
-          "cum_vol": 403,
-          "iv": 18.7,
-          "coi": 14
+          "ema_ltp": 80.9326171875,
+          "cum_vwap_num": 38687.549999999996,
+          "cum_vol": 461,
+          "iv": 17.69,
+          "coi": 15
         },
         "1920": {
           "ema_ltp": 0.0,
@@ -502,79 +502,79 @@
         }
       },
       "meta": {
-        "underlying": 1817.0
+        "underlying": 1817.8
       }
     },
     "WIPRO": {
       "strikes": {
         "237": {
-          "ema_ltp": 1.33375,
-          "cum_vwap_num": 482.6499999999999,
-          "cum_vol": 306,
-          "iv": 21.0,
+          "ema_ltp": 1.3518750000000002,
+          "cum_vwap_num": 508.67999999999995,
+          "cum_vol": 325,
+          "iv": 20.78,
           "coi": 0
         },
         "240": {
-          "ema_ltp": 1.79734375,
-          "cum_vwap_num": 4644.150000000001,
-          "cum_vol": 2471,
-          "iv": 20.65,
-          "coi": 7
+          "ema_ltp": 1.803671875,
+          "cum_vwap_num": 5036.920000000001,
+          "cum_vol": 2688,
+          "iv": 20.61,
+          "coi": 10
         },
         "242": {
-          "ema_ltp": 2.368828125,
-          "cum_vwap_num": 1397.2600000000002,
-          "cum_vol": 564,
-          "iv": 20.61,
+          "ema_ltp": 2.3844140625,
+          "cum_vwap_num": 1512.4600000000003,
+          "cum_vol": 612,
+          "iv": 20.56,
           "coi": 12
         },
         "245": {
-          "ema_ltp": 3.13625,
-          "cum_vwap_num": 14879.49,
-          "cum_vol": 4610,
-          "iv": 20.42,
-          "coi": 56
+          "ema_ltp": 3.123125,
+          "cum_vwap_num": 16381.619999999999,
+          "cum_vol": 5093,
+          "iv": 20.6,
+          "coi": 57
         },
         "247": {
-          "ema_ltp": 3.998046875,
-          "cum_vwap_num": 7017.71,
-          "cum_vol": 1711,
-          "iv": 20.58,
+          "ema_ltp": 4.0240234375,
+          "cum_vwap_num": 7657.61,
+          "cum_vol": 1869,
+          "iv": 20.6,
           "coi": 30
         },
         "250": {
-          "ema_ltp": 5.0853906250000005,
-          "cum_vwap_num": 31865.46,
-          "cum_vol": 6111,
-          "iv": 20.66,
-          "coi": 110
+          "ema_ltp": 5.0726953125000005,
+          "cum_vwap_num": 35351.799999999996,
+          "cum_vol": 6800,
+          "iv": 20.61,
+          "coi": 111
         },
         "252": {
-          "ema_ltp": 6.220703125,
-          "cum_vwap_num": 4939.61,
-          "cum_vol": 766,
-          "iv": 19.79,
+          "ema_ltp": 6.1853515625,
+          "cum_vwap_num": 5450.0599999999995,
+          "cum_vol": 849,
+          "iv": 20.31,
           "coi": 18
         },
         "255": {
-          "ema_ltp": 7.827734375,
-          "cum_vwap_num": 3968.979999999999,
-          "cum_vol": 497,
-          "iv": 20.71,
-          "coi": -1
+          "ema_ltp": 7.8138671875,
+          "cum_vwap_num": 4319.98,
+          "cum_vol": 542,
+          "iv": 21.27,
+          "coi": 0
         },
         "257": {
-          "ema_ltp": 8.954374999999999,
-          "cum_vwap_num": 335.68,
-          "cum_vol": 35,
-          "iv": 19.16,
+          "ema_ltp": 8.9371875,
+          "cum_vwap_num": 362.44,
+          "cum_vol": 38,
+          "iv": 19.87,
           "coi": 0
         },
         "260": {
-          "ema_ltp": 10.795312500000001,
-          "cum_vwap_num": 6051.579999999999,
-          "cum_vol": 517,
-          "iv": 19.65,
+          "ema_ltp": 10.77765625,
+          "cum_vwap_num": 6169.939999999999,
+          "cum_vol": 528,
+          "iv": 20.47,
           "coi": -3
         },
         "262": {
@@ -586,72 +586,72 @@
         }
       },
       "meta": {
-        "underlying": 250.0
+        "underlying": 249.81
       }
     },
     "NIFTY": {
       "meta": {
-        "underlying": 26263.55
+        "underlying": 26241.25
       }
     },
     "BANKNIFTY": {
       "meta": {
-        "underlying": 59887.95
+        "underlying": 59825.6
       }
     },
     "TCS": {
       "meta": {
-        "underlying": 3138.0
+        "underlying": 3135.0
       }
     },
     "INFY": {
       "meta": {
-        "underlying": 1563.5
+        "underlying": 1561.0
       }
     },
     "ICICIBANK": {
       "meta": {
-        "underlying": 1393.2
+        "underlying": 1390.5
       }
     },
     "BHARTIARTL": {
       "meta": {
-        "underlying": 2106.1
+        "underlying": 2102.9
       }
     },
     "ITC": {
       "meta": {
-        "underlying": 403.05
+        "underlying": 403.3
       }
     },
     "SBIN": {
       "meta": {
-        "underlying": 980.95
+        "underlying": 980.5
       }
     },
     "LT": {
       "meta": {
-        "underlying": 4085.5
+        "underlying": 4092.0
       }
     },
     "AXISBANK": {
       "meta": {
-        "underlying": 1281.0
+        "underlying": 1280.8
       }
     },
     "MARUTI": {
       "meta": {
-        "underlying": 16007.0
+        "underlying": 15998.0
       }
     },
     "BAJFINANCE": {
       "meta": {
-        "underlying": 1040.3
+        "underlying": 1039.0
       }
     },
     "ULTRACEMCO": {
       "meta": {
-        "underlying": 11604.0
+        "underlying": 11589.0
       }
     }
   }
