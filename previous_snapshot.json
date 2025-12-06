@@ -1,98 +1,9 @@
 {
-  "timestamp": "2025-12-06 10:15:41",
+  "timestamp": "2025-12-06 10:26:54",
   "symbols": {
-    "ADANIENT": {
-      "strikes": {
-        "2210": {
-          "ema_ltp": 34.0,
-          "cum_vwap_num": 6358.0,
-          "cum_vol": 187,
-          "iv": 26.66,
-          "coi": 14
-        },
-        "2220": {
-          "ema_ltp": 37.5,
-          "cum_vwap_num": 45075.0,
-          "cum_vol": 1202,
-          "iv": 26.72,
-          "coi": 109
-        },
-        "2229": {
-          "ema_ltp": 41.2,
-          "cum_vwap_num": 24761.2,
-          "cum_vol": 601,
-          "iv": 26.72,
-          "coi": 61
-        },
-        "2240": {
-          "ema_ltp": 45.25,
-          "cum_vwap_num": 56517.25,
-          "cum_vol": 1249,
-          "iv": 26.7,
-          "coi": 83
-        },
-        "2249": {
-          "ema_ltp": 0.0,
-          "cum_vwap_num": 0.0,
-          "cum_vol": 0,
-          "iv": 0.0,
-          "coi": 0
-        },
-        "2260": {
-          "ema_ltp": 54.0,
-          "cum_vwap_num": 60588.0,
-          "cum_vol": 1122,
-          "iv": 26.69,
-          "coi": 150
-        },
-        "2268": {
-          "ema_ltp": 0.0,
-          "cum_vwap_num": 0.0,
-          "cum_vol": 0,
-          "iv": 0.0,
-          "coi": 0
-        },
-        "2280": {
-          "ema_ltp": 63.65,
-          "cum_vwap_num": 29342.649999999998,
-          "cum_vol": 461,
-          "iv": 26.63,
-          "coi": -23
-        },
-        "2288": {
-          "ema_ltp": 0.0,
-          "cum_vwap_num": 0.0,
-          "cum_vol": 0,
-          "iv": 0.0,
-          "coi": 0
-        },
-        "2300": {
-          "ema_ltp": 75.6,
-          "cum_vwap_num": 109544.4,
-          "cum_vol": 1449,
-          "iv": 27.13,
-          "coi": 453
-        },
-        "2307": {
-          "ema_ltp": 79.2,
-          "cum_vwap_num": 6336.0,
-          "cum_vol": 80,
-          "iv": 26.87,
-          "coi": 14
-        }
-      },
-      "meta": {
-        "underlying": 2263.0
-      }
-    },
     "NIFTY": {
       "meta": {
         "underlying": 26186.45
-      }
-    },
-    "BANKNIFTY": {
-      "meta": {
-        "underlying": 59777.2
       }
     }
   }

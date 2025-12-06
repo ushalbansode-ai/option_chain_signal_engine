@@ -1,2 +1,1 @@
-pcr,strike,symbol,volume,atm,signal,oi_ratio,ltp,score,iv,distance_from_atm,metrics,option_type,oi,iv_trend,oi_speed,vwap_dev,coi,ema_trend,timestamp,price_trend
-0.648,2300,ADANIENT,1449,2260,SELL,0.541,75.6,0.16,27.13,40,"{'price_trend_pct': 0.0, 'ema_prev': None, 'ema_new': 75.6, 'ema_delta': 0.0, 'vwap': 75.6, 'vwap_dev_pct': 0.0, 'iv_delta': 0.0, 'iv_now': 27.13, 'oi_speed': 10.7865, 'ltp': 75.6, 'volume': 1449, 'coi': 453}",PE,3395,0.0,10.7865,0.0,453,0.0,2025-12-06 10:14:52,0.0
+
