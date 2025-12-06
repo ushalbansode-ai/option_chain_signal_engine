@@ -1,82 +1,82 @@
 {
-  "timestamp": "2025-12-06 14:27:03",
+  "timestamp": "2025-12-06 15:03:27",
   "symbols": {
     "RELIANCE": {
       "strikes": {
         "1490": {
           "ema_ltp": 5.35,
-          "cum_vwap_num": 142427.7,
-          "cum_vol": 26622,
+          "cum_vwap_num": 158253.0,
+          "cum_vol": 29580,
           "iv": 16.32,
           "coi": -116
         },
         "1500": {
           "ema_ltp": 6.9,
-          "cum_vwap_num": 644163.2999999999,
-          "cum_vol": 93357,
+          "cum_vwap_num": 715736.9999999999,
+          "cum_vol": 103730,
           "iv": 16.07,
           "coi": 93
         },
         "1510": {
           "ema_ltp": 8.95,
-          "cum_vwap_num": 414268.6499999999,
-          "cum_vol": 46287,
+          "cum_vwap_num": 460298.4999999999,
+          "cum_vol": 51430,
           "iv": 15.93,
           "coi": 75
         },
         "1520": {
           "ema_ltp": 11.3,
-          "cum_vwap_num": 891502.2000000002,
-          "cum_vol": 78894,
+          "cum_vwap_num": 990558.0000000002,
+          "cum_vol": 87660,
           "iv": 15.68,
           "coi": 418
         },
         "1530": {
           "ema_ltp": 14.45,
-          "cum_vwap_num": 1130654.7000000002,
-          "cum_vol": 78246,
+          "cum_vwap_num": 1256283.0000000002,
+          "cum_vol": 86940,
           "iv": 15.63,
           "coi": 569
         },
         "1540": {
           "ema_ltp": 18.35,
-          "cum_vwap_num": 1159683.2999999998,
-          "cum_vol": 63198,
+          "cum_vwap_num": 1288536.9999999998,
+          "cum_vol": 70220,
           "iv": 15.7,
           "coi": 376
         },
         "1550": {
           "ema_ltp": 22.7,
-          "cum_vwap_num": 767963.7000000001,
-          "cum_vol": 33831,
+          "cum_vwap_num": 853293.0000000001,
+          "cum_vol": 37590,
           "iv": 15.66,
           "coi": -146
         },
         "1560": {
           "ema_ltp": 27.8,
-          "cum_vwap_num": 495145.80000000005,
-          "cum_vol": 17811,
+          "cum_vwap_num": 550162.0,
+          "cum_vol": 19790,
           "iv": 15.7,
           "coi": -121
         },
         "1570": {
           "ema_ltp": 33.5,
-          "cum_vwap_num": 163413.0,
-          "cum_vol": 4878,
+          "cum_vwap_num": 181570.0,
+          "cum_vol": 5420,
           "iv": 15.73,
           "coi": 145
         },
         "1580": {
           "ema_ltp": 40.0,
-          "cum_vwap_num": 91080.0,
-          "cum_vol": 2277,
+          "cum_vwap_num": 101200.0,
+          "cum_vol": 2530,
           "iv": 15.9,
           "coi": -84
         },
         "1590": {
           "ema_ltp": 51.3,
-          "cum_vwap_num": 31857.300000000003,
-          "cum_vol": 621,
+          "cum_vwap_num": 35397.0,
+          "cum_vol": 690,
           "iv": 19.02,
           "coi": -25
         }
@@ -89,78 +89,78 @@
       "strikes": {
         "1520": {
           "ema_ltp": 4.1,
-          "cum_vwap_num": 135459.90000000002,
-          "cum_vol": 33039,
+          "cum_vwap_num": 150511.00000000003,
+          "cum_vol": 36710,
           "iv": 20.26,
           "coi": 377
         },
         "1540": {
           "ema_ltp": 5.9,
-          "cum_vwap_num": 261676.80000000005,
-          "cum_vol": 44352,
+          "cum_vwap_num": 290752.00000000006,
+          "cum_vol": 49280,
           "iv": 19.36,
           "coi": 97
         },
         "1560": {
           "ema_ltp": 8.7,
-          "cum_vwap_num": 442551.6,
-          "cum_vol": 50868,
+          "cum_vwap_num": 491724.0,
+          "cum_vol": 56520,
           "iv": 18.65,
           "coi": 346
         },
         "1580": {
           "ema_ltp": 12.75,
-          "cum_vwap_num": 933491.25,
-          "cum_vol": 73215,
+          "cum_vwap_num": 1037212.5,
+          "cum_vol": 81350,
           "iv": 18.02,
           "coi": 260
         },
         "1600": {
           "ema_ltp": 18.9,
-          "cum_vwap_num": 2696425.1999999997,
-          "cum_vol": 142668,
+          "cum_vwap_num": 2996027.9999999995,
+          "cum_vol": 158520,
           "iv": 17.75,
           "coi": 2176
         },
         "1620": {
           "ema_ltp": 27.4,
-          "cum_vwap_num": 2962405.8000000003,
-          "cum_vol": 108117,
+          "cum_vwap_num": 3291562.0000000005,
+          "cum_vol": 120130,
           "iv": 17.72,
           "coi": 2426
         },
         "1640": {
           "ema_ltp": 38.5,
-          "cum_vwap_num": 1730767.5,
-          "cum_vol": 44955,
+          "cum_vwap_num": 1923075.0,
+          "cum_vol": 49950,
           "iv": 18.0,
           "coi": 969
         },
         "1660": {
           "ema_ltp": 51.85,
-          "cum_vwap_num": 563246.55,
-          "cum_vol": 10863,
+          "cum_vwap_num": 625829.5,
+          "cum_vol": 12070,
           "iv": 18.47,
           "coi": 344
         },
         "1680": {
           "ema_ltp": 67.5,
-          "cum_vwap_num": 110565.0,
-          "cum_vol": 1638,
+          "cum_vwap_num": 122850.0,
+          "cum_vol": 1820,
           "iv": 19.43,
           "coi": 41
         },
         "1700": {
           "ema_ltp": 84.6,
-          "cum_vwap_num": 110403.0,
-          "cum_vol": 1305,
+          "cum_vwap_num": 122670.0,
+          "cum_vol": 1450,
           "iv": 20.67,
           "coi": 35
         },
         "1720": {
           "ema_ltp": 99.6,
-          "cum_vwap_num": 54680.399999999994,
-          "cum_vol": 549,
+          "cum_vwap_num": 60755.99999999999,
+          "cum_vol": 610,
           "iv": 19.04,
           "coi": 25
         }
@@ -173,78 +173,78 @@
       "strikes": {
         "975": {
           "ema_ltp": 4.1,
-          "cum_vwap_num": 57342.600000000006,
-          "cum_vol": 13986,
+          "cum_vwap_num": 63714.00000000001,
+          "cum_vol": 15540,
           "iv": 14.79,
           "coi": 142
         },
         "980": {
           "ema_ltp": 5.0,
-          "cum_vwap_num": 170145.0,
-          "cum_vol": 34029,
+          "cum_vwap_num": 189050.0,
+          "cum_vol": 37810,
           "iv": 14.55,
           "coi": -49
         },
         "985": {
           "ema_ltp": 6.25,
-          "cum_vwap_num": 99675.0,
-          "cum_vol": 15948,
+          "cum_vwap_num": 110750.0,
+          "cum_vol": 17720,
           "iv": 14.53,
           "coi": -46
         },
         "990": {
           "ema_ltp": 7.45,
-          "cum_vwap_num": 390298.05000000005,
-          "cum_vol": 52389,
+          "cum_vwap_num": 433664.50000000006,
+          "cum_vol": 58210,
           "iv": 14.21,
           "coi": 73
         },
         "995": {
           "ema_ltp": 9.2,
-          "cum_vwap_num": 327722.39999999997,
-          "cum_vol": 35622,
+          "cum_vwap_num": 364135.99999999994,
+          "cum_vol": 39580,
           "iv": 14.25,
           "coi": 208
         },
         "1000": {
           "ema_ltp": 10.9,
-          "cum_vwap_num": 1521825.2999999998,
-          "cum_vol": 139617,
+          "cum_vwap_num": 1690916.9999999998,
+          "cum_vol": 155130,
           "iv": 13.99,
           "coi": 1121
         },
         "1005": {
           "ema_ltp": 12.95,
-          "cum_vwap_num": 494405.1000000001,
-          "cum_vol": 38178,
+          "cum_vwap_num": 549339.0000000001,
+          "cum_vol": 42420,
           "iv": 13.82,
           "coi": 263
         },
         "1010": {
           "ema_ltp": 15.55,
-          "cum_vwap_num": 714024.8999999999,
-          "cum_vol": 45918,
+          "cum_vwap_num": 793360.9999999999,
+          "cum_vol": 51020,
           "iv": 13.93,
           "coi": 414
         },
         "1015": {
           "ema_ltp": 17.1,
-          "cum_vwap_num": 123581.70000000001,
-          "cum_vol": 7227,
+          "cum_vwap_num": 137313.0,
+          "cum_vol": 8030,
           "iv": 12.76,
           "coi": -3
         },
         "1020": {
           "ema_ltp": 21.15,
-          "cum_vwap_num": 228229.65000000002,
-          "cum_vol": 10791,
+          "cum_vwap_num": 253588.50000000003,
+          "cum_vol": 11990,
           "iv": 13.76,
           "coi": 49
         },
         "1025": {
           "ema_ltp": 24.1,
-          "cum_vwap_num": 67455.9,
-          "cum_vol": 2799,
+          "cum_vwap_num": 74951.0,
+          "cum_vol": 3110,
           "iv": 13.41,
           "coi": 2
         }
@@ -257,78 +257,78 @@
       "strikes": {
         "2000": {
           "ema_ltp": 3.3,
-          "cum_vwap_num": 46807.2,
-          "cum_vol": 14184,
+          "cum_vwap_num": 52008.0,
+          "cum_vol": 15760,
           "iv": 16.54,
           "coi": -144
         },
         "2020": {
           "ema_ltp": 5.1,
-          "cum_vwap_num": 25153.199999999997,
-          "cum_vol": 4932,
+          "cum_vwap_num": 27947.999999999996,
+          "cum_vol": 5480,
           "iv": 16.28,
           "coi": -5
         },
         "2040": {
           "ema_ltp": 7.6,
-          "cum_vwap_num": 106225.20000000001,
-          "cum_vol": 13977,
+          "cum_vwap_num": 118028.00000000001,
+          "cum_vol": 15530,
           "iv": 15.94,
           "coi": 60
         },
         "2060": {
           "ema_ltp": 11.5,
-          "cum_vwap_num": 159493.5,
-          "cum_vol": 13869,
+          "cum_vwap_num": 177215.0,
+          "cum_vol": 15410,
           "iv": 15.86,
           "coi": -27
         },
         "2080": {
           "ema_ltp": 16.75,
-          "cum_vwap_num": 303459.75,
-          "cum_vol": 18117,
+          "cum_vwap_num": 337177.5,
+          "cum_vol": 20130,
           "iv": 15.76,
           "coi": -34
         },
         "2100": {
           "ema_ltp": 23.75,
-          "cum_vwap_num": 716703.75,
-          "cum_vol": 30177,
+          "cum_vwap_num": 796337.5,
+          "cum_vol": 33530,
           "iv": 15.74,
           "coi": -150
         },
         "2120": {
           "ema_ltp": 32.55,
-          "cum_vwap_num": 320487.30000000005,
-          "cum_vol": 9846,
+          "cum_vwap_num": 356097.00000000006,
+          "cum_vol": 10940,
           "iv": 15.74,
           "coi": 12
         },
         "2140": {
           "ema_ltp": 44.45,
-          "cum_vwap_num": 268833.6,
-          "cum_vol": 6048,
+          "cum_vwap_num": 298704.0,
+          "cum_vol": 6720,
           "iv": 16.34,
           "coi": -19
         },
         "2160": {
           "ema_ltp": 56.7,
-          "cum_vwap_num": 83689.20000000001,
-          "cum_vol": 1476,
+          "cum_vwap_num": 92988.00000000001,
+          "cum_vol": 1640,
           "iv": 16.32,
           "coi": -4
         },
         "2180": {
           "ema_ltp": 78.3,
-          "cum_vwap_num": 37349.100000000006,
-          "cum_vol": 477,
+          "cum_vwap_num": 41499.00000000001,
+          "cum_vol": 530,
           "iv": 20.34,
           "coi": -36
         },
         "2200": {
           "ema_ltp": 88.2,
-          "cum_vwap_num": 31752.0,
-          "cum_vol": 360,
+          "cum_vwap_num": 35280.0,
+          "cum_vol": 400,
           "iv": 17.76,
           "coi": 0
         }
@@ -341,78 +341,78 @@
       "strikes": {
         "3940": {
           "ema_ltp": 20.3,
-          "cum_vwap_num": 94455.90000000001,
-          "cum_vol": 4653,
+          "cum_vwap_num": 104951.00000000001,
+          "cum_vol": 5170,
           "iv": 15.58,
           "coi": 114
         },
         "3960": {
           "ema_ltp": 24.75,
-          "cum_vwap_num": 206934.75,
-          "cum_vol": 8361,
+          "cum_vwap_num": 229927.5,
+          "cum_vol": 9290,
           "iv": 15.46,
           "coi": 17
         },
         "3980": {
           "ema_ltp": 30.2,
-          "cum_vwap_num": 145956.59999999998,
-          "cum_vol": 4833,
+          "cum_vwap_num": 162173.99999999997,
+          "cum_vol": 5370,
           "iv": 15.42,
           "coi": 6
         },
         "4000": {
           "ema_ltp": 36.15,
-          "cum_vwap_num": 1073004.2999999998,
-          "cum_vol": 29682,
+          "cum_vwap_num": 1192226.9999999998,
+          "cum_vol": 32980,
           "iv": 15.28,
           "coi": 264
         },
         "4020": {
           "ema_ltp": 44.35,
-          "cum_vwap_num": 383583.14999999997,
-          "cum_vol": 8649,
+          "cum_vwap_num": 426203.49999999994,
+          "cum_vol": 9610,
           "iv": 15.49,
           "coi": 49
         },
         "4040": {
           "ema_ltp": 52.6,
-          "cum_vwap_num": 383454.0,
-          "cum_vol": 7290,
+          "cum_vwap_num": 426060.0,
+          "cum_vol": 8100,
           "iv": 15.47,
           "coi": 68
         },
         "4060": {
           "ema_ltp": 63.75,
-          "cum_vwap_num": 289743.75,
-          "cum_vol": 4545,
+          "cum_vwap_num": 321937.5,
+          "cum_vol": 5050,
           "iv": 15.91,
           "coi": -16
         },
         "4080": {
           "ema_ltp": 73.5,
-          "cum_vwap_num": 212341.5,
-          "cum_vol": 2889,
+          "cum_vwap_num": 235935.0,
+          "cum_vol": 3210,
           "iv": 15.8,
           "coi": -40
         },
         "4100": {
           "ema_ltp": 85.6,
-          "cum_vwap_num": 184125.59999999998,
-          "cum_vol": 2151,
+          "cum_vwap_num": 204583.99999999997,
+          "cum_vol": 2390,
           "iv": 16.02,
           "coi": 15
         },
         "4120": {
           "ema_ltp": 98.9,
-          "cum_vwap_num": 8901.0,
-          "cum_vol": 90,
+          "cum_vwap_num": 9890.0,
+          "cum_vol": 100,
           "iv": 16.32,
           "coi": 0
         },
         "4140": {
           "ema_ltp": 115.2,
-          "cum_vwap_num": 24883.199999999997,
-          "cum_vol": 216,
+          "cum_vwap_num": 27647.999999999996,
+          "cum_vol": 240,
           "iv": 17.19,
           "coi": -5
         }
@@ -425,78 +425,78 @@
       "strikes": {
         "1230": {
           "ema_ltp": 3.9,
-          "cum_vwap_num": 28080.0,
-          "cum_vol": 7200,
+          "cum_vwap_num": 31200.0,
+          "cum_vol": 8000,
           "iv": 16.91,
           "coi": 3
         },
         "1240": {
           "ema_ltp": 5.3,
-          "cum_vwap_num": 50275.79999999999,
-          "cum_vol": 9486,
+          "cum_vwap_num": 55861.999999999985,
+          "cum_vol": 10540,
           "iv": 16.63,
           "coi": -64
         },
         "1250": {
           "ema_ltp": 7.15,
-          "cum_vwap_num": 138481.2,
-          "cum_vol": 19368,
+          "cum_vwap_num": 153868.0,
+          "cum_vol": 21520,
           "iv": 16.39,
           "coi": 15
         },
         "1260": {
           "ema_ltp": 9.6,
-          "cum_vwap_num": 124502.40000000002,
-          "cum_vol": 12969,
+          "cum_vwap_num": 138336.00000000003,
+          "cum_vol": 14410,
           "iv": 16.23,
           "coi": -24
         },
         "1270": {
           "ema_ltp": 12.7,
-          "cum_vwap_num": 250431.30000000005,
-          "cum_vol": 19719,
+          "cum_vwap_num": 278257.00000000006,
+          "cum_vol": 21910,
           "iv": 16.12,
           "coi": -29
         },
         "1280": {
           "ema_ltp": 16.55,
-          "cum_vwap_num": 437615.1000000001,
-          "cum_vol": 26442,
+          "cum_vwap_num": 486239.0000000001,
+          "cum_vol": 29380,
           "iv": 16.06,
           "coi": -172
         },
         "1290": {
           "ema_ltp": 21.15,
-          "cum_vwap_num": 249548.84999999998,
-          "cum_vol": 11799,
+          "cum_vwap_num": 277276.5,
+          "cum_vol": 13110,
           "iv": 16.03,
           "coi": 45
         },
         "1300": {
           "ema_ltp": 26.65,
-          "cum_vwap_num": 145109.25,
-          "cum_vol": 5445,
+          "cum_vwap_num": 161232.5,
+          "cum_vol": 6050,
           "iv": 16.13,
           "coi": -47
         },
         "1310": {
           "ema_ltp": 32.85,
-          "cum_vwap_num": 23060.699999999997,
-          "cum_vol": 702,
+          "cum_vwap_num": 25622.999999999996,
+          "cum_vol": 780,
           "iv": 16.23,
           "coi": -43
         },
         "1320": {
           "ema_ltp": 39.4,
-          "cum_vwap_num": 12056.400000000001,
-          "cum_vol": 306,
+          "cum_vwap_num": 13396.000000000002,
+          "cum_vol": 340,
           "iv": 16.08,
           "coi": 0
         },
         "1330": {
           "ema_ltp": 52.35,
-          "cum_vwap_num": 3769.2000000000007,
-          "cum_vol": 72,
+          "cum_vwap_num": 4188.000000000001,
+          "cum_vol": 80,
           "iv": 21.08,
           "coi": 8
         }
@@ -509,78 +509,78 @@
       "strikes": {
         "2240": {
           "ema_ltp": 8.45,
-          "cum_vwap_num": 40382.549999999996,
-          "cum_vol": 4779,
+          "cum_vwap_num": 44869.49999999999,
+          "cum_vol": 5310,
           "iv": 18.59,
           "coi": 147
         },
         "2260": {
           "ema_ltp": 12.1,
-          "cum_vwap_num": 171953.09999999998,
-          "cum_vol": 14211,
+          "cum_vwap_num": 191058.99999999997,
+          "cum_vol": 15790,
           "iv": 18.68,
           "coi": 352
         },
         "2280": {
           "ema_ltp": 15.8,
-          "cum_vwap_num": 91292.40000000001,
-          "cum_vol": 5778,
+          "cum_vwap_num": 101436.00000000001,
+          "cum_vol": 6420,
           "iv": 18.24,
           "coi": 55
         },
         "2300": {
           "ema_ltp": 21.55,
-          "cum_vwap_num": 1245740.8499999999,
-          "cum_vol": 57807,
+          "cum_vwap_num": 1384156.4999999998,
+          "cum_vol": 64230,
           "iv": 18.32,
           "coi": 287
         },
         "2320": {
           "ema_ltp": 28.0,
-          "cum_vwap_num": 371196.0,
-          "cum_vol": 13257,
+          "cum_vwap_num": 412440.0,
+          "cum_vol": 14730,
           "iv": 18.14,
           "coi": -261
         },
         "2340": {
           "ema_ltp": 37.7,
-          "cum_vwap_num": 1106118.0000000002,
-          "cum_vol": 29340,
+          "cum_vwap_num": 1229020.0000000002,
+          "cum_vol": 32600,
           "iv": 18.76,
           "coi": 383
         },
         "2360": {
           "ema_ltp": 48.95,
-          "cum_vwap_num": 5024472.75,
-          "cum_vol": 102645,
+          "cum_vwap_num": 5582747.5,
+          "cum_vol": 114050,
           "iv": 19.42,
           "coi": -328
         },
         "2380": {
           "ema_ltp": 61.4,
-          "cum_vwap_num": 5189466.600000001,
-          "cum_vol": 84519,
+          "cum_vwap_num": 5766074.000000001,
+          "cum_vol": 93910,
           "iv": 20.03,
           "coi": -1542
         },
         "2400": {
           "ema_ltp": 73.4,
-          "cum_vwap_num": 6211621.800000001,
-          "cum_vol": 84627,
+          "cum_vwap_num": 6901802.000000001,
+          "cum_vol": 94030,
           "iv": 19.94,
           "coi": -1596
         },
         "2420": {
           "ema_ltp": 87.7,
-          "cum_vwap_num": 3295327.5,
-          "cum_vol": 37575,
+          "cum_vwap_num": 3661475.0,
+          "cum_vol": 41750,
           "iv": 20.36,
           "coi": -813
         },
         "2440": {
           "ema_ltp": 103.65,
-          "cum_vwap_num": 2158614.9000000004,
-          "cum_vol": 20826,
+          "cum_vwap_num": 2398461.0000000005,
+          "cum_vol": 23140,
           "iv": 21.12,
           "coi": -1245
         }
@@ -593,78 +593,78 @@
       "strikes": {
         "1000": {
           "ema_ltp": 4.95,
-          "cum_vwap_num": 208182.15000000002,
-          "cum_vol": 42057,
+          "cum_vwap_num": 231313.50000000003,
+          "cum_vol": 46730,
           "iv": 20.83,
           "coi": 364
         },
         "1010": {
           "ema_ltp": 6.65,
-          "cum_vwap_num": 112039.20000000001,
-          "cum_vol": 16848,
+          "cum_vwap_num": 124488.00000000001,
+          "cum_vol": 18720,
           "iv": 20.48,
           "coi": 112
         },
         "1020": {
           "ema_ltp": 9.0,
-          "cum_vwap_num": 293625.0,
-          "cum_vol": 32625,
+          "cum_vwap_num": 326250.0,
+          "cum_vol": 36250,
           "iv": 20.33,
           "coi": 237
         },
         "1030": {
           "ema_ltp": 11.9,
-          "cum_vwap_num": 458280.8999999999,
-          "cum_vol": 38511,
+          "cum_vwap_num": 509200.9999999999,
+          "cum_vol": 42790,
           "iv": 20.15,
           "coi": 233
         },
         "1040": {
           "ema_ltp": 15.6,
-          "cum_vwap_num": 700315.2000000001,
-          "cum_vol": 44892,
+          "cum_vwap_num": 778128.0000000001,
+          "cum_vol": 49880,
           "iv": 20.13,
           "coi": 472
         },
         "1050": {
           "ema_ltp": 20.1,
-          "cum_vwap_num": 870129.0,
-          "cum_vol": 43290,
+          "cum_vwap_num": 966810.0,
+          "cum_vol": 48100,
           "iv": 20.19,
           "coi": -30
         },
         "1060": {
           "ema_ltp": 25.15,
-          "cum_vwap_num": 443193.30000000005,
-          "cum_vol": 17622,
+          "cum_vwap_num": 492437.00000000006,
+          "cum_vol": 19580,
           "iv": 20.11,
           "coi": 299
         },
         "1070": {
           "ema_ltp": 31.15,
-          "cum_vwap_num": 248950.80000000005,
-          "cum_vol": 7992,
+          "cum_vwap_num": 276612.00000000006,
+          "cum_vol": 8880,
           "iv": 20.26,
           "coi": 352
         },
         "1080": {
           "ema_ltp": 37.7,
-          "cum_vwap_num": 148952.7,
-          "cum_vol": 3951,
+          "cum_vwap_num": 165503.0,
+          "cum_vol": 4390,
           "iv": 20.31,
           "coi": 99
         },
         "1090": {
           "ema_ltp": 44.1,
-          "cum_vwap_num": 25004.699999999997,
-          "cum_vol": 567,
+          "cum_vwap_num": 27782.999999999996,
+          "cum_vol": 630,
           "iv": 19.52,
           "coi": 14
         },
         "1100": {
           "ema_ltp": 52.6,
-          "cum_vwap_num": 98940.59999999998,
-          "cum_vol": 1881,
+          "cum_vwap_num": 109933.99999999997,
+          "cum_vol": 2090,
           "iv": 20.46,
           "coi": 14
         }
@@ -677,29 +677,29 @@
       "strikes": {
         "2210": {
           "ema_ltp": 34.0,
-          "cum_vwap_num": 57222.0,
-          "cum_vol": 1683,
+          "cum_vwap_num": 63580.0,
+          "cum_vol": 1870,
           "iv": 26.66,
           "coi": 14
         },
         "2220": {
           "ema_ltp": 37.5,
-          "cum_vwap_num": 405675.0,
-          "cum_vol": 10818,
+          "cum_vwap_num": 450750.0,
+          "cum_vol": 12020,
           "iv": 26.72,
           "coi": 109
         },
         "2229": {
           "ema_ltp": 41.2,
-          "cum_vwap_num": 222850.80000000005,
-          "cum_vol": 5409,
+          "cum_vwap_num": 247612.00000000006,
+          "cum_vol": 6010,
           "iv": 26.72,
           "coi": 61
         },
         "2240": {
           "ema_ltp": 45.25,
-          "cum_vwap_num": 508655.25,
-          "cum_vol": 11241,
+          "cum_vwap_num": 565172.5,
+          "cum_vol": 12490,
           "iv": 26.7,
           "coi": 83
         },
@@ -712,8 +712,8 @@
         },
         "2260": {
           "ema_ltp": 54.0,
-          "cum_vwap_num": 545292.0,
-          "cum_vol": 10098,
+          "cum_vwap_num": 605880.0,
+          "cum_vol": 11220,
           "iv": 26.69,
           "coi": 150
         },
@@ -726,8 +726,8 @@
         },
         "2280": {
           "ema_ltp": 63.65,
-          "cum_vwap_num": 264083.85,
-          "cum_vol": 4149,
+          "cum_vwap_num": 293426.5,
+          "cum_vol": 4610,
           "iv": 26.63,
           "coi": -23
         },
@@ -740,15 +740,15 @@
         },
         "2300": {
           "ema_ltp": 75.6,
-          "cum_vwap_num": 985899.6000000001,
-          "cum_vol": 13041,
+          "cum_vwap_num": 1095444.0,
+          "cum_vol": 14490,
           "iv": 27.13,
           "coi": 453
         },
         "2307": {
           "ema_ltp": 79.2,
-          "cum_vwap_num": 57024.0,
-          "cum_vol": 720,
+          "cum_vwap_num": 63360.0,
+          "cum_vol": 800,
           "iv": 26.87,
           "coi": 14
         }
@@ -761,78 +761,78 @@
       "strikes": {
         "1700": {
           "ema_ltp": 1.7,
-          "cum_vwap_num": 4941.900000000001,
-          "cum_vol": 2907,
+          "cum_vwap_num": 5491.000000000001,
+          "cum_vol": 3230,
           "iv": 15.96,
           "coi": -102
         },
         "1720": {
           "ema_ltp": 3.05,
-          "cum_vwap_num": 2937.1499999999996,
-          "cum_vol": 963,
+          "cum_vwap_num": 3263.4999999999995,
+          "cum_vol": 1070,
           "iv": 15.75,
           "coi": -1
         },
         "1740": {
           "ema_ltp": 4.9,
-          "cum_vwap_num": 16802.1,
-          "cum_vol": 3429,
+          "cum_vwap_num": 18669.0,
+          "cum_vol": 3810,
           "iv": 15.22,
           "coi": 17
         },
         "1760": {
           "ema_ltp": 7.8,
-          "cum_vwap_num": 20638.800000000003,
-          "cum_vol": 2646,
+          "cum_vwap_num": 22932.000000000004,
+          "cum_vol": 2940,
           "iv": 14.75,
           "coi": -20
         },
         "1780": {
           "ema_ltp": 12.65,
-          "cum_vwap_num": 39733.649999999994,
-          "cum_vol": 3141,
+          "cum_vwap_num": 44148.49999999999,
+          "cum_vol": 3490,
           "iv": 14.64,
           "coi": -49
         },
         "1800": {
           "ema_ltp": 19.5,
-          "cum_vwap_num": 199543.5,
-          "cum_vol": 10233,
+          "cum_vwap_num": 221715.0,
+          "cum_vol": 11370,
           "iv": 14.54,
           "coi": -70
         },
         "1820": {
           "ema_ltp": 28.45,
-          "cum_vwap_num": 115478.54999999999,
-          "cum_vol": 4059,
+          "cum_vwap_num": 128309.49999999999,
+          "cum_vol": 4510,
           "iv": 14.39,
           "coi": 46
         },
         "1840": {
           "ema_ltp": 41.35,
-          "cum_vwap_num": 29027.699999999997,
-          "cum_vol": 702,
+          "cum_vwap_num": 32252.999999999996,
+          "cum_vol": 780,
           "iv": 15.16,
           "coi": -5
         },
         "1860": {
           "ema_ltp": 53.6,
-          "cum_vwap_num": 17848.800000000003,
-          "cum_vol": 333,
+          "cum_vwap_num": 19832.000000000004,
+          "cum_vol": 370,
           "iv": 14.38,
           "coi": -8
         },
         "1880": {
           "ema_ltp": 66.25,
-          "cum_vwap_num": 9540.0,
-          "cum_vol": 144,
+          "cum_vwap_num": 10600.0,
+          "cum_vol": 160,
           "iv": 11.96,
           "coi": 2
         },
         "1900": {
           "ema_ltp": 92.0,
-          "cum_vwap_num": 828.0,
-          "cum_vol": 9,
+          "cum_vwap_num": 920.0,
+          "cum_vol": 10,
           "iv": 19.5,
           "coi": -1
         }
