@@ -33,7 +33,7 @@
     },
     "pcr": 0.549,
     "oi_ratio": 0.615,
-    "timestamp": "2025-12-07 13:01:06"
+    "timestamp": "2025-12-07 13:11:32"
   },
   {
     "symbol": "INFY",
@@ -69,7 +69,7 @@
     },
     "pcr": 0.708,
     "oi_ratio": 0.508,
-    "timestamp": "2025-12-07 13:01:08"
+    "timestamp": "2025-12-07 13:11:34"
   },
   {
     "symbol": "HDFCBANK",
@@ -105,7 +105,7 @@
     },
     "pcr": 0.642,
     "oi_ratio": 0.683,
-    "timestamp": "2025-12-07 13:01:10"
+    "timestamp": "2025-12-07 13:11:35"
   },
   {
     "symbol": "BHARTIARTL",
@@ -141,7 +141,7 @@
     },
     "pcr": 0.542,
     "oi_ratio": 0.564,
-    "timestamp": "2025-12-07 13:01:13"
+    "timestamp": "2025-12-07 13:11:39"
   },
   {
     "symbol": "LT",
@@ -177,7 +177,7 @@
     },
     "pcr": 0.714,
     "oi_ratio": 0.62,
-    "timestamp": "2025-12-07 13:01:17"
+    "timestamp": "2025-12-07 13:11:43"
   },
   {
     "symbol": "AXISBANK",
@@ -213,7 +213,7 @@
     },
     "pcr": 0.616,
     "oi_ratio": 0.506,
-    "timestamp": "2025-12-07 13:01:18"
+    "timestamp": "2025-12-07 13:11:44"
   },
   {
     "symbol": "HINDUNILVR",
@@ -249,7 +249,7 @@
     },
     "pcr": 0.625,
     "oi_ratio": 0.626,
-    "timestamp": "2025-12-07 13:01:20"
+    "timestamp": "2025-12-07 13:11:46"
   },
   {
     "symbol": "BAJFINANCE",
@@ -285,7 +285,7 @@
     },
     "pcr": 0.739,
     "oi_ratio": 0.657,
-    "timestamp": "2025-12-07 13:01:21"
+    "timestamp": "2025-12-07 13:11:47"
   },
   {
     "symbol": "ADANIENT",
@@ -321,7 +321,7 @@
     },
     "pcr": 0.648,
     "oi_ratio": 0.541,
-    "timestamp": "2025-12-07 13:01:22"
+    "timestamp": "2025-12-07 13:11:48"
   },
   {
     "symbol": "SUNPHARMA",
@@ -357,6 +357,6 @@
     },
     "pcr": 0.458,
     "oi_ratio": 0.34,
-    "timestamp": "2025-12-07 13:01:25"
+    "timestamp": "2025-12-07 13:11:51"
   }
 ]
