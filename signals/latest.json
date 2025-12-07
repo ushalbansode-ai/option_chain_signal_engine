@@ -33,7 +33,7 @@
     },
     "pcr": 0.549,
     "oi_ratio": 0.615,
-    "timestamp": "2025-12-07 10:29:56"
+    "timestamp": "2025-12-07 11:07:35"
   },
   {
     "symbol": "INFY",
@@ -69,7 +69,7 @@
     },
     "pcr": 0.708,
     "oi_ratio": 0.508,
-    "timestamp": "2025-12-07 10:29:59"
+    "timestamp": "2025-12-07 11:07:37"
   },
   {
     "symbol": "HDFCBANK",
@@ -86,7 +86,7 @@
     "score": 0.0,
     "price_trend": 0.0,
     "ema_trend": 0.0,
-    "vwap_dev": 0.0,
+    "vwap_dev": -0.0,
     "iv_trend": 0.0,
     "oi_speed": 0.0,
     "metrics": {
@@ -94,8 +94,8 @@
       "ema_prev": 10.9,
       "ema_new": 10.9,
       "ema_delta": 0.0,
-      "vwap": 10.9,
-      "vwap_dev_pct": 0.0,
+      "vwap": 10.900000000000002,
+      "vwap_dev_pct": -0.0,
       "iv_delta": 0.0,
       "iv_now": 13.99,
       "oi_speed": 0.0,
@@ -105,7 +105,7 @@
     },
     "pcr": 0.642,
     "oi_ratio": 0.683,
-    "timestamp": "2025-12-07 10:30:00"
+    "timestamp": "2025-12-07 11:07:39"
   },
   {
     "symbol": "BHARTIARTL",
@@ -141,7 +141,7 @@
     },
     "pcr": 0.542,
     "oi_ratio": 0.564,
-    "timestamp": "2025-12-07 10:30:04"
+    "timestamp": "2025-12-07 11:07:43"
   },
   {
     "symbol": "LT",
@@ -177,7 +177,7 @@
     },
     "pcr": 0.714,
     "oi_ratio": 0.62,
-    "timestamp": "2025-12-07 10:30:08"
+    "timestamp": "2025-12-07 11:07:46"
   },
   {
     "symbol": "AXISBANK",
@@ -213,7 +213,7 @@
     },
     "pcr": 0.616,
     "oi_ratio": 0.506,
-    "timestamp": "2025-12-07 10:30:09"
+    "timestamp": "2025-12-07 11:07:47"
   },
   {
     "symbol": "HINDUNILVR",
@@ -249,7 +249,7 @@
     },
     "pcr": 0.625,
     "oi_ratio": 0.626,
-    "timestamp": "2025-12-07 10:30:12"
+    "timestamp": "2025-12-07 11:07:50"
   },
   {
     "symbol": "BAJFINANCE",
@@ -285,7 +285,7 @@
     },
     "pcr": 0.739,
     "oi_ratio": 0.657,
-    "timestamp": "2025-12-07 10:30:13"
+    "timestamp": "2025-12-07 11:07:51"
   },
   {
     "symbol": "ADANIENT",
@@ -321,7 +321,7 @@
     },
     "pcr": 0.648,
     "oi_ratio": 0.541,
-    "timestamp": "2025-12-07 10:30:15"
+    "timestamp": "2025-12-07 11:07:52"
   },
   {
     "symbol": "SUNPHARMA",
@@ -357,6 +357,6 @@
     },
     "pcr": 0.458,
     "oi_ratio": 0.34,
-    "timestamp": "2025-12-07 10:30:17"
+    "timestamp": "2025-12-07 11:07:55"
   }
 ]
