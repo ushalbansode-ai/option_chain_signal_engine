@@ -1,0 +1,5 @@
+strategies:
+  - name: high_oi_buildup
+    threshold: 1.5
+  - name: fut_opt_divergence
+    pcr_threshold: 1.2
